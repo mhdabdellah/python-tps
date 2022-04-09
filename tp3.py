@@ -9,14 +9,14 @@ def suit(n):
    succ = 1
    print (prec)
    print(succ)
-    for i in range(n - 2) :
+   for i in range(n - 2) :
         somme = prec + succ
         print (somme)
         prec = succ
         succ = somme
         
 suit(n)
-
+'''
 
 print ("########Question 2 ############")
 pli = 30
@@ -70,9 +70,13 @@ while i < n:
        j+=1
    print(list)
    i+=1
-
+'''
+'''
 print ("########Question 5 ############")
- 
+n = int(input(" Entrez un Entier : "))
+for i in reversed(range(1,n+1)):
+   print(''*(n-1)+'x'*i)
+
 print ("########Question 6 ############")
 secret = random.randint(0,100)
 preposition = int(input("Bienvenu Joueur Poposer un Nombre S'il Vous Plait : "))
@@ -90,14 +94,24 @@ def getSecretValue(preposition):
         print("Mouvaise Proposition tu as perdu !")
 getSecretValue(preposition)
 
-'''
+
 print ("########Question 7 ############")
+
 
 
 print ("########Question 8 ############")
 
 
-
+'''
+def cher(x,l):
+    i,j = 0, len(j)
+    while i<j:
+        k = (i +j) // 2
+        if l(k) == x:
+            return True
+        elif l[k] > x:
+            
+'''
 
 
 
